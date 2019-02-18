@@ -1,1 +1,1 @@
-# conky-like-widget
+# conky-like-PyQt5-widget
