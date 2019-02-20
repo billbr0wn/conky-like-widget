@@ -296,7 +296,7 @@ class _Window_(QMainWindow):
         self.progress_1_1.setValue(self.cpu_cores[1])
         self.new_mem = self.percentage_of_used_memory/1000000000
         self.progress_2.setValue(self.new_mem)
-        print(self.new_mem)
+        #print(self.new_mem)
         #self.progress_2.setValue(psutil.virtual_memory()[2])
         #self.progress_3.setValue(psutil.disk_usage('/')[3])
         self.progress_3.setValue(self.cpu_freq)
