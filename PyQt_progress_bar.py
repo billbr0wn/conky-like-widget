@@ -6,9 +6,9 @@ from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 #from PyQt5.QtMultimedia import *
-from PyQt5.QtQuick import *
+#from PyQt5.QtQuick import *
 from PyQt5.uic import *
-from PyQt5.QtQml import *
+#from PyQt5.QtQml import *
 from PyQt5.QtCore import QPoint
 from PyQt5.QtCore import QEvent
 import psutil
