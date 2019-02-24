@@ -283,7 +283,8 @@ class _Window_(QMainWindow):
         self.new_mem = self.percentage_of_used_memory/1000000000
         self.progress_2.setValue(self.new_mem)
         self.progress_3.setValue(self.cpu_freq)
-
+        
+        #raise above other windows each cycle
         self.raise_()
         
 
@@ -316,8 +317,7 @@ class _Window_(QMainWindow):
 
         self.setWindowFlags(Qt.FramelessWindowHint # hides the window controls
                 | Qt.WindowStaysOnTopHint # forces window to top... maybe
-                #| Qt.SplashScreen # this one hides it from the task bar!
-                | Qt.WindowStaysOnTopHint
+              
                 | Qt.Tool)
         
        
