@@ -263,7 +263,7 @@ class _Window_(QMainWindow):
         self.disk = psutil.disk_usage('/')[3]
         self.freq = psutil.cpu_freq(percpu=False)[0]/1000*10
         self.cpu_freq = self.freq / 3.2 * 10
-        print(self.cpu_freq)
+        #print(self.cpu_freq)
 
 
               
