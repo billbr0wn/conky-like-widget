@@ -324,6 +324,11 @@ class _Window_(QMainWindow):
         self.setAttribute(Qt.WA_TranslucentBackground, True)
                         #position  #size
         self.setGeometry(1350,0, 365,25)
+        
+        
+        self.trayIcon = QSystemTrayIcon(QIcon(), self)
+        self.trayIcon.show()
+        
         self.setWindowTitle('Conky Like Widget')
         self.setVisible(False)
         self.exitOnClose = False
